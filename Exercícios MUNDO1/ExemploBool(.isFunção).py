@@ -1,0 +1,6 @@
+n1=input('Digite um valor ')
+print('O tipo primitivo desse valor "{}" é'.format(n1),(type(n1)))
+print(n1,'está em caixa alta?',n1.isupper())
+print(n1,'é um número?',n1.isnumeric())
+print(n1,'é uma letra?', n1.isalpha())
+print(n1,'é alphanumerica?',n1.isalnum())
